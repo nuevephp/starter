@@ -1,0 +1,21 @@
+{
+    "name": "nueve/starter",
+    "description": "Starter",
+    "autoload": {
+        "psr-4": {
+            "Nueve\\Responses\\": "src/Responses/",
+            "Nueve\\RouteManager\\": "src/RouteManager/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.0",
+        "slim/csrf": "^0.6.0"
+    },
+    "authors": [
+        {
+            "name": "Andrew Smith",
+            "email": "a.smith@silentworks.co.uk"
+        }
+    ]
+}
